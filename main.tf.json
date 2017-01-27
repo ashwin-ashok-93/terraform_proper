@@ -1,0 +1,24 @@
+{
+ "module": [
+   {
+     "Redis_py": 
+       {
+         "redis_server_port": 7026,
+         "source": "./Redis_py"
+         
+       }
+     
+   }
+ ],
+ "provider": [
+   {
+     "google": 
+       {
+         "credentials": "${file(\"../credentials.json\")}",
+         "project": "calcium-verbena-154713",
+         "region": "asia-east1"
+       }
+     
+   }
+ ]
+}
